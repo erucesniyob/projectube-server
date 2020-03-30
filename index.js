@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const PORT = process.env.PORT || 8080;
 
-var uri = 'mongodb+srv://dminhdo:minhduyen@cluster0-krnqo.mongodb.net/test?retryWrites=true&w=majority'
+var uri = 'mongodb+srv://dminhdo:dminhdo@cluster0-krnqo.mongodb.net/test?retryWrites=true&w=majority'
 app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: true
