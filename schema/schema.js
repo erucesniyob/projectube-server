@@ -55,6 +55,8 @@ const UserType = new GraphQLObjectType({
   })
 });
 
+
+// Root Query
 const RootQuery = new GraphQLObjectType({
   name:'The_Root',
   fields: {
@@ -87,6 +89,8 @@ const RootQuery = new GraphQLObjectType({
   }
 });
 
+
+// Mutation
 const Mutation = new GraphQLObjectType({
   name:'Mutation',
   fields: {
